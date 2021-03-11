@@ -18,6 +18,7 @@
   <button id="btn8">Like </button><span id="s8">8.</span><br>
   <button id="btn9">Like </button><span id="s9">9.</span><br>
   <button id="btn10">Like </button><span id="s10">10.</span><br>
+ <button id="btnWin">Winner </button>
   <script src="https://code.jquery.com/jquery-3.3.1.js"></script> 
   <script>
     $(document).ready(function() {
@@ -93,7 +94,29 @@
           $("#btn9").append(s9);
         $("#s9").append("<img src='rose.png' />");
       });
-     
+     $("#btnWin").click(function(){
+        s = Math.max(s1, s2, s3, s4, s5, s6, s7, s8, s9, s10);
+        if(s == s1)
+          $("#btn1").css("background-color", "yellow");
+        else if(s == s2)
+          $("#btn2").css("background-color", "yellow");
+        else if(s == s3)
+          $("#btn3").css("background-color", "yellow");
+       else if(s == s4)
+          $("#btn4").css("background-color", "yellow");
+       else if(s == s5)
+          $("#btn5").css("background-color", "yellow");
+       else if(s == s6)
+          $("#btn6").css("background-color", "yellow");
+       else if(s == s7)
+          $("#btn7").css("background-color", "yellow");
+       else if(s == s8)
+          $("#btn8").css("background-color", "yellow");
+       else if(s == s9)
+          $("#btn9").css("background-color", "yellow");
+        else
+          $("#btn10").css("background-color", "yellow");
+      });
     });
   </script>
 </body>
