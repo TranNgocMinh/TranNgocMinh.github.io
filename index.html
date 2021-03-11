@@ -8,54 +8,92 @@
 </head>
 <body>
   <h1>Chung kết vòng thi áo tắm lớp CTT13CD4A</H1>
-   <button id="btn1">1.Dương Gia Bảo</button><span id="s1"></span><br>
-  <button id="btn2">2.Nguyễn Thị Cúc</button><span id="s2"></span><br>
-<button id="btn3">3.Bùi Nguyễn Đức Duy</button><span id="s3"></span><br>
-  <button id="btn4">4.Lê Trường Đạt</button><span id="s4"></span><br>
-<button id="btn5">5.Trần Tiến Hưng</button><span id="s5"></span><br>
-  <button id="btn6">6.Hoàng Văn Vũ Nam</button><span id="s6"></span><br>
-  <button id="btn7">7.Trần Anh Phú</button><span id="s7"></span><br>
-  <button id="btn8">8.Vũ Nhật Thiện</button><span id="s8"></span><br>
-  <button id="btn9">9.Nguyễn Tấn Tài</button><span id="s9"></span><br>
-  <button id="btn10">10.Huỳnh Thị Phương Uyên</button><span id="s10"></span><br>
+   <button id="btn1">Like </button><span id="s1">1.</span><br>
+  <button id="btn2">Like </button><span id="s2">2.</span><br>
+<button id="btn3">Like </button><span id="s3">3.</span><br>
+  <button id="btn4">Like </button><span id="s4">4. </span><br>
+<button id="btn5">Like </button><span id="s5">5. </span><br>
+  <button id="btn6">Like </button><span id="s6">6. </span><br>
+  <button id="btn7">Like </button><span id="s7">7.</span><br>
+  <button id="btn8">Like </button><span id="s8">8.</span><br>
+  <button id="btn9">Like </button><span id="s9">9.</span><br>
+  <button id="btn10">Like </button><span id="s10">10.</span><br>
   <script src="https://code.jquery.com/jquery-3.3.1.js"></script> 
   <script>
     $(document).ready(function() {
       var s1 = 0, s2 = 0, s3 = 0, s4 = 0, s5 = 0,
           s6 = 0, s7 = 0, s8 = 0, s9 = 0, s10 = 0;
+       $("#btn1").append(s1);
+       $("#btn2").append(s2);
+      $("#btn3").append(s3);
+      $("#btn4").append(s4);
+       $("#btn5").append(s5);
+      $("#btn6").append(s6);
+      $("#btn7").append(s7);
+       $("#btn8").append(s8);
+      $("#btn9").append(s9);
+       $("#btn10").append(s10);
       $("#btn1").click(function(){
-        s1++;
-        
-        $("#s1").append("<img src='rose.png' />");
+          $("#btn1").empty();
+          s1++;
+          $("#btn1").append(s1);
+          $("#s1").append("<img src='rose.png' />");
       });
       $("#btn2").click(function(){
+         $("#btn2").empty();
+          s2++;
+          $("#btn2").append(s2);
         $("#s2").append("<img src='rose.png' />");
       });
       $("#btn3").click(function(){
+         $("#btn3").empty();
+          s3++;
+          $("#btn3").append(s3);
         $("#s3").append("<img src='rose.png' />");
       });
       $("#btn10").click(function(){
+         $("#btn10").empty();
+          s10++;
+          $("#btn10").append(s10);
         $("#s10").append("<img src='rose.png' />");
       });
       $("#btn4").click(function(){
+         $("#btn4").empty();
+          s4++;
+          $("#btn4").append(s4);
         $("#s4").append("<img src='rose.png' />");
       });
       $("#btn5").click(function(){
+         $("#btn5").empty();
+          s5++;
+          $("#btn5").append(s5);
         $("#s5").append("<img src='rose.png' />");
       });
       $("#btn6").click(function(){
+         $("#btn6").empty();
+          s6++;
+          $("#btn6").append(s6);
         $("#s6").append("<img src='rose.png' />");
       });
       $("#btn7").click(function(){
+         $("#btn7").empty();
+          s7++;
+          $("#btn7").append(s7);
         $("#s7").append("<img src='rose.png' />");
       });
       $("#btn8").click(function(){
+         $("#btn8").empty();
+          s8++;
+          $("#btn8").append(s8);
         $("#s8").append("<img src='rose.png' />");
       });
       $("#btn9").click(function(){
+         $("#btn9").empty();
+          s9++;
+          $("#btn9").append(s9);
         $("#s9").append("<img src='rose.png' />");
       });
-      $("#btn1").append(s1);
+     
     });
   </script>
 </body>
