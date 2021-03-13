@@ -1,8 +1,8 @@
-p{text-indent:30px}
+p{text-indent:30px;font-size:25px;}
 
 textarea{
   width:50%;
-  height:350px;
-  font-size: 16px;
+  height:250px;
+  font-size: 25px;
   background: white;
 }
