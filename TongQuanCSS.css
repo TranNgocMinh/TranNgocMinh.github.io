@@ -1,6 +1,8 @@
-p{text-indent:30px;font-size:18px;}
-li{font-size:18px;}
-
+p{text-indent:30px;font-size:20px;}
+li{font-size:20px;}
+h1,h2,h3,h4,h5,h6{
+  font-size:150%;
+}
 textarea{
   width:50%;
   height:250px;
