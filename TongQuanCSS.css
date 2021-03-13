@@ -1,7 +1,8 @@
 p{text-indent:30px}
 
 textarea{
-  width:500%;
-  height:400px;
-  font-size:30px;
+  width:50%;
+  height:350px;
+  font-size: 16px;
+  background: yellow;
 }
