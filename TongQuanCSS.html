@@ -17,6 +17,22 @@
 <li>Có (hoặc đăng ký mới) tài khoản Github tại <a href="https://github.com/" target="_blank">GitHub</a>.</li>
  </ul>
 <h2>Nội dung</h2>
+<ul>
+<li>Khái niệm chung</li>
+<li>Các hình thức kết hợp CSS vào trang web
+<ul>
+	<li><a href="#s1">Sử dụng thuộc tính style (inline)</a></li>
+	<li><a href="#p1">Thực hành số 1</a></li>
+	<li><a href="#s2">Sử dụng thẻ &lt;style&gt; (internal)</a></li>
+	<li><a href="#p2">Thực hành số 2</a></li>
+	<li><a href="#s3">Liên kết đến tập tin CSS (có phần mở rộng là css)</a></li>
+	<li><a href="#p3">Thực hành số 3</a></li>
+	<li><a href="">Chương trình chi tiết môn học (có phần mở rộng là css)</a></li>
+	<li><a href="">Tập tin PDF bài giảng</a></li>
+	<li><a href="#ref">Tham khảo</a></li>
+</ul>
+</li>
+ </ul>
 <h3>1) Khái niệm chung</h3>
 <h4>a) Khái niệm CSS</h4>
 <p>CSS viết tắt của từ Cascading Style Sheets là ngôn ngữ dùng để mô tả cách thể hiện của một trang web (theo <a href="https://www.w3.org/standards/webdesign/htmlcss.html" target="_blank">W3C - Tổ chức quy định công nghệ web</a>).</p>
@@ -36,7 +52,7 @@
   </body>
  </html>
  </textarea>
-<h4>a) Sử dụng thuộc tính style (inline)</h4>
+<h4 id="s1">a) Sử dụng thuộc tính style (inline)</h4>
 <p>Định nghĩa CSS dùng thuộc tính style của một phần tử xác định.</p>
 <p>Ví dụ: Định nghĩa CSS cho thẻ p</p>
 <textarea disabled> 
@@ -45,16 +61,16 @@
 <p><b>Giải thích:</b></p>
 <p>font-size và color được gọi là các thuộc tính (attributes) CSS; 30px và blue là các giá trị tương ứng cho các thuộc tính này. Chi tiết về các thuộc tính CSS và giá trị của chúng sẽ được đề cập trong tiết học sau.</p>
 <p><a href="https://tranngocminh.github.io/editor.html" target="_blank">Kiểm tra thực thi.</a></p>
-<h4>Thực hành số 1</h4>
+<h4 id="p1">Thực hành số 1</h4>
 <ul>
-<li>Truy cập đến trang github cá nhân (ví dụ: github.com/ABC)</li>
+<li>Truy cập đến trang github cá nhân (ví dụ: github.com/ABC). Có thể tham khảo danh sách tài khoản lớp <a href="https://tranngocminh.github.io/DS.html" target="_blank">tại đây</a>.</li>
 <li>Mở (hay tạo mới) một repository tên ABC.github.io</li>
 <li>Tạo tập tin inline.html với nội dung có thể sao chép <a href="#code1">tại đây</a>.</li>
 <li>Thêm thuộc tính style đến thẻ h1 kèm với định nghĩa CSS color:red;</li>
 <li>Commit tập tin </li>
 <li>Kiểm tra nhanh bằng cách truy cập ABC.github.io/inline.html</li>
 </ul>
-<h4>b) Sử dụng thẻ &lt;style&gt; (internal)</h4>
+<h4 id="s2">b) Sử dụng thẻ &lt;style&gt; (internal)</h4>
 <p>Định nghĩa CSS trong thẻ &lt;style&gt;. Thẻ &lt;style&gt; thường được đặt trong thẻ &lt;head&gt;.</p>
 <p>Ví dụ: Định nghĩa CSS cho thẻ p</p>
 <textarea disabled> 
@@ -77,9 +93,9 @@
 <p><b>Giải thích:</b></p>
 <p>Các thuộc tính CSS và giá trị tương tự trong Thực hành số 1 nhưng phần định nghĩa CSS được đặt trong cặp ngoặc {} theo sau thẻ p. Chi tiết về cú pháp trình bày CSS sẽ được đề cập trong các tiết học sau.</p>
 <p><a href="https://tranngocminh.github.io/editor.html" target="_blank">Kiểm tra thực thi</a></p>
-<h4>Thực hành số 2</h4>
+<h4 id="p2">Thực hành số 2</h4>
 <ul>
-<li>Truy cập đến trang github cá nhân (ví dụ: github.com/ABC)</li>
+<li>Truy cập đến trang github cá nhân (ví dụ: github.com/ABC). Có thể tham khảo danh sách tài khoản lớp <a href="https://tranngocminh.github.io/DS.html" target="_blank">tại đây</a>.</li>
 <li>Mở lại repository tên ABC.github.io</li>
 <li>Tạo tập tin internal.html với nội dung có thể sao chép <a href="#code1">tại đây</a>.</li>
 <li>Định nghĩa nội dung CSS sau trong thẻ  &lt;style&gt;:</li></ul>
@@ -93,7 +109,7 @@ h1{
 <li>Commit tập tin</li>
 <li>Kiểm tra nhanh bằng cách truy cập ABC.github.io/internal.html</li>
 </ul>
-<h4>c) Liên kết đến tập tin CSS (có phần mở rộng là css)</h4>
+<h4 id="s3">c) Liên kết đến tập tin CSS (có phần mở rộng là css)</h4>
 <p>Định nghĩa CSS trong một tập tin có phần mở rộng là css (Ví dụ mystyle.css). Trang HTML sẽ liên kết đến tập tin này bằng thẻ  &lt;link&gt; đặt trong thẻ  &lt;head&gt; như sau:</p>
 <textarea disabled> 
 <head>
@@ -101,9 +117,9 @@ h1{
 </head>
 </textarea> 
 <p><b>Chú ý</b>: giá trị thuộc tính href của thẻ  &lt;link&gt; cần chỉ rõ đường dẫn đến tập tin mystyle.css. Trong ví dụ trên chúng ta giả sử mystyle.css được lưu trong cùng thư mục với tập tin html liên kết đến nó.</p>
-<h4>Thực hành số 3</h4>
+<h4 id="p3">Thực hành số 3</h4>
 <ul>
-<li>Truy cập đến trang github cá nhân (ví dụ: github.com/ABC)</li>
+<li>Truy cập đến trang github cá nhân (ví dụ: github.com/ABC). Có thể tham khảo danh sách tài khoản lớp <a href="https://tranngocminh.github.io/DS.html" target="_blank">tại đây</a>.</li>
 <li>Mở lại repository tên ABC.github.io</li>
 <li>Tạo tập tin style.css với nội dung CSS sau:</li>
  </ul>
@@ -120,3 +136,7 @@ h1{
 <li>Commit tập tin</li>
 <li>Kiểm tra nhanh bằng cách truy cập ABC.github.io/external.html</li>
 </ul>
+
+<h2 id="ref">Tham khảo</h2>
+<p>[1] <a href="https://www.w3schools.com/css/default.asp">https://www.w3schools.com/css/default.asp </a></p>
+<p>[2] Ths Trần Ngọc Minh, Thiết kế và quản trị website, Trường Cao đẳng Kỹ thuật Công nghệ Nha trang, 2017</p>
