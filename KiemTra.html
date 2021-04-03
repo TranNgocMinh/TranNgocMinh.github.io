@@ -6,11 +6,12 @@
 $(document).ready(function(){
   $("button").click(function(){
     $.getJSON("ClassInfo.json", function(data){
-        var items = [];
+       // var items = [];
         $.each( data, function( key, val ) {
-          items.push( "<li id='" + key + "'>" + val + "</li>" );
+          //items.push( "<li id='" + key + "'>" + val + "</li>" );
+          $("div").append(val.name);
         });
-        $("div").append(items);
+        
     });
   });
 });
