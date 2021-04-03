@@ -5,8 +5,12 @@
 <script>
 $(document).ready(function(){
   $("button").click(function(){
-    $.getJSON("ClassInfo.json", function(data){   
-        $("div").append(data.CTT13CD3A + " ");
+    $.getJSON("ClassInfo.json", function(data){
+        var items = [];
+        $.each( data, function( key, val ) {
+          items.push( "<li id='" + key + "'>" + val + "</li>" );
+        });
+        $("div").append(items);
     });
   });
 });
