@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="quiz.css">
+    <title>Bài tập số 2</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <img src="test1.png" class="center" />
+    <textarea>
+    &lt!DOCTYPE html&gt
+        &lthtml&gt
+            &lthead&gt
+                &ltstyle&gt
+
+                &lt/style&gt
+            &lt/head&gt
+            &ltbody&gt
+                &lth1&gtMy First CSS Example&lt/h1&gt
+                &ltp&gtThis is a paragraph.&lt/p&gt
+            &lt/body&gt
+        &lt/html&gt
+    </textarea>
+    <button id="html"> HTML</button>
+    <button id="img"> Hình</button>
+    <!-- Main page -->
+    <div class="main">
+        <!-- Number of Question  -->
+
+        <div class="wrapper" id="pages">
+            <span id="quizNumber">1</span><span>/3</span>
+        </div>
+
+        <!-- Quiz Question -->
+        <div class="quiz-questions" id="display-area">
+            <p id="question"></p>
+            <ul id="answer">
+            </ul>
+
+            <div id="quiz-results">
+                <button type="button" name="button" class="submit" id="submit">Xác nhận</button>
+            </div>
+        </div>
+
+    </div>
+
+    <canvas id="canvas"></canvas>
+    <script src="quiz02.js"></script>
+</body>
+
+</html>
