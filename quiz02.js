@@ -222,7 +222,7 @@ $(document).ready(function () {
             a.href = "baitap02.html";
             document.getElementById('display-area').appendChild(newCongrats);
             document.getElementById('display-area').appendChild(a);
-            confettiEffect();
+            //confettiEffect();
         }
         else {
             var newCongrats = document.createElement('p');
