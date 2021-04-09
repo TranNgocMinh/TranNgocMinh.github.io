@@ -142,21 +142,21 @@ $(document).ready(function () {
 
         // change the background of the answer according to the Results
         if (userAns == currentQuestion.answers[currentQuestion.correct]) {
-            console.log("Correct! The answer is: " + userAns);
+            //console.log("Correct! The answer is: " + userAns);
             // change color of selected item by changing className
             selectedItem.className = 'correct';
             // count the number of correct answers
             correctAns++;
-            console.log(correctAns);
+            //console.log(correctAns);
         } else {
-            console.log("Wrong! The corrent answer is: " + currentQuestion.answers[currentQuestion.correct]);
+           // console.log("Wrong! The corrent answer is: " + currentQuestion.answers[currentQuestion.correct]);
             //change the background of the wrong answer
             selectedItem.className = 'wrong';
             //hightlight the right answer if the user got it wrong
             //change the class name of the correct answer
-            ulTag.getElementsByTagName('li')[currentQuestion.correct].className = 'correct';
+           // ulTag.getElementsByTagName('li')[currentQuestion.correct].className = 'correct';
 
-            console.log(currentQuestion.answers[currentQuestion.correct]);
+           // console.log(currentQuestion.answers[currentQuestion.correct]);
         }
 
         // Create a next Question button once the answer has been submitted
