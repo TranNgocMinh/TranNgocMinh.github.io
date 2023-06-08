@@ -1,21 +1,21 @@
 [{
-        "monhoc": "Tin",
+        "monhoc": "Tin học",
         "sotiet": "5",
-        "giaovien": "Minh"
+        "giaovien": "Ngọc Minh"
     },
     {
-        "monhoc": "Anh",
+        "monhoc": "Anh Văn",
         "sotiet": "30",
         "giaovien": "An An"
     },
     {
-        "monhoc": "Toan",
+        "monhoc": "Toán",
         "sotiet": "21",
-        "giaovien": "Xuan"
+        "giaovien": "Xuân"
     },
     {
-        "monhoc": "Su",
+        "monhoc": "Sử",
         "sotiet": "30",
-        "giaovien": "Dieu"
+        "giaovien": "Diệu"
     }
 ]
