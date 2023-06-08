@@ -1,21 +1,21 @@
 [{
-        "food": "Sauce - Thousand Island",
-        "cities": "Soanindrariny",
-        "animals": "Common boubou shrike"
+        "monhoc": "Tin học",
+        "sotiet": "5",
+        "giaovien": "Ngọc Minh"
     },
     {
-        "food": "Wild Boar - Tenderloin",
-        "cities": "Luthu",
-        "animals": "Eastern diamondback rattlesnake"
+        "monhoc": "Anh Văn",
+        "sotiet": "30",
+        "giaovien": "An An"
     },
     {
-        "food": "Goat - Whole Cut",
-        "cities": "Kargowa",
-        "animals": "Sheep, red"
+        "monhoc": "Toán",
+        "sotiet": "21",
+        "giaovien": "Xuân"
     },
     {
-        "food": "Cherries - Bing, Canned",
-        "cities": "Colonia Aurora",
-        "animals": "Sarus crane"
+        "monhoc": "Sử",
+        "sotiet": "30",
+        "giaovien": "Diệu"
     }
 ]
