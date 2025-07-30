@@ -11,7 +11,6 @@ This repository implements **EmoNeXt++-Tiny**, a lightweight but powerful facial
 ├── inference.py            # Inference from image
 ├── evaluate.py             # Accuracy, F1 evaluation
 ├── data_utils.py           # Dataset class for FER2013-style folder
-├── best_model.pth          # [OPTIONAL] Pretrained model weights
 └── README.md               # Usage guide
 ```
 
