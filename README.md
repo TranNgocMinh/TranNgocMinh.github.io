@@ -1,3 +1,4 @@
+``
 !python myconvnext_train.py \
   --csv fer2013.csv \
   --img-size 224 --epochs 100 --warmup 5 \
@@ -6,3 +7,4 @@
   --mixup 0.2 --cutmix 0.2 --ema --ema-decay 0.9997 \
   --amp --balanced-sampler --tta \
   --checkpoint-dir checkpoints --out best_myconvnext_srblock.pth
+  ``
