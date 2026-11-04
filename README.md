@@ -1,124 +1,107 @@
 <div align="center">
 
-# Minh Tran — Web Developer Portfolio
+# Minh Tran · Web Developer
 
-**Clean interfaces. Useful software.**
+**Responsive websites · Interactive JavaScript · Practical web solutions**
 
-Responsive websites · Practical web features · Clear written communication
+A portfolio of small, functional web projects built with an emphasis on usability, readable code, and clear communication.
 
-[**Explore the Portfolio**](https://tranngocminh.github.io/) · [**Taskboard Demo**](https://tranngocminh.github.io/demos/taskboard.html) · [**Quote Builder Demo**](https://tranngocminh.github.io/demos/quote-builder.html)
+[**View Portfolio**](https://tranngocminh.github.io/) ·
+[**Taskboard Demo**](https://tranngocminh.github.io/demos/taskboard.html) ·
+[**Quote Builder Demo**](https://tranngocminh.github.io/demos/quote-builder.html)
 
 </div>
 
 ---
 
-## About this project
+## About
 
-This repository contains my personal web developer portfolio, built to demonstrate practical frontend development skills through a responsive website and interactive demos.
+I'm Minh, a web developer with a background in information technology education and hands-on software development.
 
-I work with **HTML, CSS, JavaScript, Bootstrap, React, PHP, and Node.js**. My focus is on usable interfaces, maintainable code, bug fixing, and clearly scoped web development tasks.
+I enjoy turning requirements into responsive interfaces and straightforward web features. My interests include frontend development, improving existing websites, fixing bugs, and building maintainable applications.
 
-The portfolio itself is a **static website built with HTML, CSS, and vanilla JavaScript**. It does not require a frontend framework, a database, or a build process.
+This repository is my **web development portfolio**. It showcases projects that visitors can inspect and try directly.
 
-## Featured work
+## Featured web projects
 
-| Project | What it demonstrates | Explore |
-| :--- | :--- | :--- |
-| **Taskboard** | Task creation, editing, deletion, text search, status management, and browser-based persistence using `localStorage`. | [Live demo](https://tranngocminh.github.io/demos/taskboard.html) · [Source](demos/) |
-| **Quote Builder** | Interactive form controls, conditional calculations, estimated hours and budget, and copyable summaries. Figures are illustrative. | [Live demo](https://tranngocminh.github.io/demos/quote-builder.html) · [Source](demos/) |
-| **AI Tutor — RAG Prototype** | An educational AI research prototype exploring retrieval-augmented generation and progressive learning support. | [Source repository](https://github.com/TranNgocMinh/ai-tutor-rag) |
+| Project | Technologies | Highlights | Links |
+| --- | --- | --- | --- |
+| **Personal Portfolio** | HTML5, CSS3, JavaScript | Responsive layout, mobile navigation, filterable projects, semantic HTML, and SEO basics. | [Website](https://tranngocminh.github.io/) · [Source](index.html) |
+| **Taskboard** | HTML, CSS, JavaScript, `localStorage` | Add, edit, delete, search, and organize tasks across status columns. Data persists in the browser. | [Demo](https://tranngocminh.github.io/demos/taskboard.html) · [Source](demos/taskboard.html) |
+| **Quote Builder** | HTML, CSS, JavaScript | Interactive project-type and feature selection, estimated hours and cost calculations, and copyable summaries. | [Demo](https://tranngocminh.github.io/demos/quote-builder.html) · [Source](demos/quote-builder.html) |
 
-> **Portfolio transparency:** Taskboard and Quote Builder are independent demonstration projects, not completed paid client engagements. The AI Tutor is presented as a research prototype. Features and links are provided so visitors can evaluate the work directly.
+> **Project note:** These are independent portfolio demonstrations, not claims of completed paid client work. Quote Builder estimates are illustrative, not binding quotations.
 
-## What I can help with
+## Web development capabilities
 
-- **Responsive web development:** Landing pages, business websites, and mobile-friendly layouts.
-- **Frontend improvements:** HTML/CSS refinements, JavaScript interactions, accessibility-minded UI work, and bug fixes.
-- **Practical web functionality:** Forms, dashboards, simple CRUD workflows, and API integration using the appropriate stack.
-- **Maintenance and handover:** Scoped fixes, testing of important flows, readable code, and clear written progress updates.
+- **Responsive interfaces:** HTML, CSS, Bootstrap, mobile-friendly page layouts.
+- **JavaScript functionality:** Interactive forms, DOM updates, validation, filtering, and browser storage.
+- **Frontend applications:** React components and practical UI workflows.
+- **Backend fundamentals:** PHP, Node.js, basic APIs, and CRUD-oriented web features.
+- **Maintenance:** Identifying bugs, making focused improvements, testing key user flows, and documenting changes.
 
-## Technologies
+**Used in this repository:** HTML5 · CSS3 · Vanilla JavaScript · `localStorage` · GitHub Pages
 
-**Professional toolkit:** HTML5 · CSS3 · JavaScript · Bootstrap · React · PHP · Node.js · GitHub
+**Additional technologies I work with:** Bootstrap · React · PHP · Node.js
 
-**Used in this repository:** HTML5 · CSS3 · Vanilla JavaScript · Browser `localStorage` · GitHub Pages
+## How I work
 
-## Portfolio features
+I prefer well-defined requirements, small deliverables, and clear acceptance criteria. My usual process is:
 
-- Responsive layout for desktop, tablet, and mobile
-- Project showcase with category filters
-- Mobile navigation and semantic page sections
-- Working browser-based demos linked from the homepage
-- SEO metadata, favicon, `robots.txt`, and `sitemap.xml`
-- Lightweight static hosting with no runtime dependencies
+1. **Understand** the requested behavior and constraints.
+2. **Implement** the feature or fix in manageable steps.
+3. **Test** important user flows and responsive layouts.
+4. **Document** the result and any known limitations.
 
-## Project structure
+I am comfortable with remote collaboration and **asynchronous written communication**.
+
+## Repository structure
 
 ```text
 TranNgocMinh.github.io/
-├── index.html                  # Portfolio homepage
+├── index.html                 # Main portfolio page
 ├── assets/
-│   ├── styles.css              # Portfolio styles
-│   └── app.js                  # Navigation and project filters
+│   ├── styles.css             # Portfolio styling
+│   └── app.js                 # Navigation and project filters
 ├── demos/
-│   ├── taskboard.html          # Taskboard interface
-│   ├── taskboard.js            # Taskboard interactions
-│   ├── quote-builder.html      # Quote Builder interface
-│   └── quote-builder.js        # Estimate calculations
+│   ├── taskboard.html         # Taskboard UI
+│   ├── taskboard.js           # Task management logic
+│   ├── quote-builder.html     # Quote Builder UI
+│   └── quote-builder.js       # Estimate logic
 ├── favicon.svg
 ├── robots.txt
 ├── sitemap.xml
 ├── .nojekyll
+├── DEPLOY_VI.md               # Deployment notes in Vietnamese
 └── README.md
 ```
 
 ## Run locally — no Git required
 
-1. Open this repository on GitHub and select **Code → Download ZIP**.
-2. Extract the ZIP to a folder on your computer.
-3. Open `index.html` in Chrome, Edge, or Firefox.
-4. Use the project links on the homepage to try both demos.
+1. Select **Code → Download ZIP** on this repository page.
+2. Extract the ZIP on your computer.
+3. Open `index.html` in a modern browser.
+4. Try the demos from the **Selected Work** section.
 
-For an optional local web server (if Python is installed):
+The portfolio uses plain HTML, CSS, and JavaScript; **no npm installation, database, API key, or build step is required**.
 
-```bash
-python -m http.server 8080
-```
+To publish or update it through GitHub's website, upload the modified files to the repository root and commit the changes, then configure **Settings → Pages → Deploy from a branch → `main` → `/(root)`**.
 
-Then visit `http://localhost:8080/`.
+## Other interests
 
-No `npm install`, credentials, API keys, or backend services are needed for these static demos.
+Outside client-oriented web development, I work on **programming education, learning resources, and applied AI experiments**, including an [AI Tutor RAG teaching prototype](https://github.com/TranNgocMinh/ai-tutor-rag). Other repositories on [my GitHub profile](https://github.com/TranNgocMinh) reflect teaching materials, exercises, and independent technical exploration.
 
-## Deploy with GitHub Pages
+## Notes and contact
 
-The repository is designed for GitHub Pages from the `main` branch and repository root.
-
-1. Open **Settings → Pages** in this repository.
-2. Under **Build and deployment**, select **Deploy from a branch**.
-3. Select **main** and **/(root)**, then save.
-4. Check the **Actions** / **Pages** deployment status and visit [the portfolio website](https://tranngocminh.github.io/).
-
-Changes made through GitHub's website can be published without using the Git command line.
-
-## Privacy and limitations
-
-- Taskboard data is stored **only in the current browser's `localStorage`**. It does not synchronize across devices or accounts.
-- The Quote Builder produces **illustrative estimates**, not binding project quotations.
-- The demos do not require sign-in and should not be used for sensitive or personal information.
-- This static portfolio does not provide a server-side database, authentication, or a contact form.
-
-## Collaboration
-
-I prefer **asynchronous written communication** for clarifying requirements, reviewing progress, and documenting delivery. For freelance projects, project-specific discussions can take place through the relevant contracting platform.
-
-**GitHub:** [github.com/TranNgocMinh](https://github.com/TranNgocMinh)
+- Taskboard stores demo data in the browser's `localStorage`; do not enter sensitive information.
+- Quote Builder is a demonstration of interactive UI logic, not a commercial estimating service.
+- The website and demos are designed for static hosting through GitHub Pages.
+- For additional code samples and project updates, visit [github.com/TranNgocMinh](https://github.com/TranNgocMinh).
 
 ---
 
 <div align="center">
 
-Built and maintained by **Minh Tran** · Vietnam
-
-*Practical solutions, thoughtful interfaces, and transparent delivery.*
+**Clean interfaces. Useful software. Clear communication.**
 
 </div>
